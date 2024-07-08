@@ -64,6 +64,13 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
+```
+
+
+```mermaid
+sequenceDiagram
+    participant browser
+    participant server
 
     Note right of browser: The user writes a new note and clicks the Save button
 
